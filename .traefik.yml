@@ -5,6 +5,6 @@ import: github.com/jamesmcroft/traefik-plugin-return-response
 testData:
   lastModified: true
   response:
-    - method: "OPTIONS"
-      url_match: "^https://(.+)$"
-      status_code: 200
+    method: "OPTIONS"
+    url_match: "^https://(.+)$"
+    status_code: 200

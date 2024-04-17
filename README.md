@@ -34,9 +34,9 @@ http:
       plugin:
         returnStaticResponse:
           response:
-            - method: "OPTIONS"
-              url_match: "^http://localhost:8080/(.+)$"
-              status_code: 200
+            method: "OPTIONS"
+            url_match: "^http://localhost:8080/(.+)$"
+            status_code: 200
 
   routers:
     routerRoot:

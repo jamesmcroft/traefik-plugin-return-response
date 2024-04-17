@@ -1,0 +1,6 @@
+displayName: Return Response
+summary: Return a custom response for a given HTTP request.
+type: middleware
+import: github.com/jamesmcroft/traefik-plugin-return-response
+testData:
+  lastModified: true
